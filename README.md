@@ -62,8 +62,10 @@ The application expects **three specific files** to exist in the same folder as 
 
 ```text
 watermark_app/
-├── watermark_gui.py                  # The application source code
-├── watermark_left.png       # (Required) Logo for left position
-├── watermark_center.png     # (Required) Logo for center position
-├── watermark_right.png      # (Required) Logo for right position
-└── README.md
+├── README.md
+├── watermark.gui                # Main folder
+    ├── watermark_gui.py         # The application source code
+    ├── watermark_left.png       # (Required) Logo for left position
+    ├── watermark_center.png     # (Required) Logo for center position
+    ├── watermark_right.png      # (Required) Logo for right position
+├── watermarked                  # Suggested export folder or you can choose any other folder to export
